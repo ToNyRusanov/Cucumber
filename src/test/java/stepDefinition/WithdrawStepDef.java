@@ -26,7 +26,7 @@ public class WithdrawStepDef {
 	public void i_should_receive(String outcome) throws Throwable {
 		String message = "receive ";
 		int res = withdraw;
-	   if (balance - res > 0) {
+	   if (balance - res >= 0) {
 		  message += res;
 		  assertEquals(outcome, message);
 	}else {
