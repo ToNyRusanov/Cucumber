@@ -14,6 +14,7 @@ Scenario Outline: withdraw fixed amount
 		| 500      | 200       | 300       | receive 200         | 
 		| 100      | 500       | 100       | an error message    |		
 		| 50       | 100       | 50        | an error message    |
+		| 100      | 100       | 0         | receive 100         |
 		
 		
 		
