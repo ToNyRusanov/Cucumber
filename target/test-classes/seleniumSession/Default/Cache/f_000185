@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head id="j_idt2">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+            <meta name="apple-mobile-web-app-capable" content="yes" /><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/theme.css?ln=primefaces-paradise-blue" /><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/fa/font-awesome.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=6.2" /><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/css/nanoscroller.css?ln=paradise-layout" /><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/css/animate.css?ln=paradise-layout" /><link type="text/css" rel="stylesheet" href="/estafet-hr/faces/javax.faces.resource/css/layout-deepsea.css?ln=paradise-layout" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_GB';}</script>
+        <link rel="shortcut icon" type="image/x-icon" href="./../resources/paradise-layout/images/favicon.png" />
+        <title>
+        Companies
+    </title><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/js/nanoscroller.js?ln=paradise-layout"></script><script type="text/javascript" src="/estafet-hr/faces/javax.faces.resource/js/layout.js?ln=paradise-layout"></script></head><body>
+        <div class="layout-wrapper layout-menu-static">
+
+    <div class="topbar"><a href="/estafet-hr/faces/dashboard.xhtml" class="topbar-logo"><img id="j_idt14" src="/estafet-hr/faces/javax.faces.resource/images/logo-estafet.png?ln=paradise-layout" alt="" style="border: 0px;" /></a>
+
+        <a href="#" id="menu-button">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <a href="#" id="user-display">
+            <span class="username">HRM test</span><img id="j_idt16" src="https://lh3.googleusercontent.com/-NSXuraFRqdE/AAAAAAAAAAI/AAAAAAAAAAA/T5o4WnRdFmI/photo.jpg?pfdrid_c=true" alt="" style="border: 0px;  border-radius: 50%;" />
+
+            <i class="fa fa-angle-down"></i>
+        </a>
+
+        <label for="topbar-search">
+            <i class="fa fa-search topbar-search-icon"></i>
+        </label>
+        <input type="text" class="topbar-search" placeholder="Type your search here" id="topbar-search" />
+
+        <ul id="topbar-menu" class="fadeInDown animated">
+            <li>
+                <a href="/estafet-hr/faces/users/profile.xhtml">
+                    <i class="topbar-icon fa fa-fw fa-user"></i>
+                    <span class="topbar-item-name">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="topbar-icon fa fa-fw fa-wrench"></i>
+                    <span class="topbar-item-name">Settings</span>
+                </a>
+                <ul>   
+                    <a href="#">
+                        <i class="topbar-icon fa fa-fw fa-cog"></i>
+                        <span class="topbar-item-name">Menu Modes</span>
+                    </a>
+                    <ul>  
+                        <li role="menuitem">
+<form id="j_idt18" name="j_idt18" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt18" value="j_idt18" />
+<a id="j_idt18:j_idt19" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt18',{'j_idt18:j_idt19':'j_idt18:j_idt19'}).submit('j_idt18');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-fw fa fa-bars"></i>
+                                    <span>Static Menu</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt22" name="j_idt22" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt22" value="j_idt22" />
+<a id="j_idt22:j_idt23" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt22',{'j_idt22:j_idt23':'j_idt22:j_idt23'}).submit('j_idt22');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-fw fa fa-bars"></i>
+                                    <span>Overlay Menu</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt26" name="j_idt26" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt26" value="j_idt26" />
+<a id="j_idt26:j_idt27" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt26',{'j_idt26:j_idt27':'j_idt26:j_idt27'}).submit('j_idt26');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-fw fa-bars"></i>
+                                    <span>Slim Menu</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt30" name="j_idt30" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt30" value="j_idt30" />
+<a id="j_idt30:j_idt31" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt30',{'j_idt30:j_idt31':'j_idt30:j_idt31'}).submit('j_idt30');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-sun-o"></i>
+                                    <span>Light Menu</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt34" name="j_idt34" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt34" value="j_idt34" />
+<a id="j_idt34:j_idt35" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt34',{'j_idt34:j_idt35':'j_idt34:j_idt35'}).submit('j_idt34');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-moon-o"></i>
+                                    <span>Dark Menu</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                    </ul>
+
+                    <a href="#">
+                        <i class="topbar-icon fa fa-fw fa-dashboard"></i>
+                        <span class="topbar-item-name">Layout Colors</span>
+                    </a>
+                    <ul>  
+                        <li role="menuitem">
+<form id="j_idt38" name="j_idt38" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt38" value="j_idt38" />
+<a id="j_idt38:j_idt39" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt38',{'j_idt38:j_idt39':'j_idt38:j_idt39'}).submit('j_idt38');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Default</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:5" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+
+                        <li role="menuitem">
+<form id="j_idt42" name="j_idt42" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt42" value="j_idt42" />
+<a id="j_idt42:j_idt43" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt42',{'j_idt42:j_idt43':'j_idt42:j_idt43'}).submit('j_idt42');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Blue</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:6" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>                        
+                        <li role="menuitem">
+<form id="j_idt46" name="j_idt46" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt46" value="j_idt46" />
+<a id="j_idt46:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt46',{'j_idt46:j_idt47':'j_idt46:j_idt47'}).submit('j_idt46');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Orange</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:7" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt50" name="j_idt50" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt50" value="j_idt50" />
+<a id="j_idt50:j_idt51" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt50',{'j_idt50:j_idt51':'j_idt50:j_idt51'}).submit('j_idt50');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Deep Purple</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:8" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt54" name="j_idt54" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt54" value="j_idt54" />
+<a id="j_idt54:j_idt55" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt54',{'j_idt54:j_idt55':'j_idt54:j_idt55'}).submit('j_idt54');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Lime</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:9" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt58" name="j_idt58" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt58" value="j_idt58" />
+<a id="j_idt58:j_idt59" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt58',{'j_idt58:j_idt59':'j_idt58:j_idt59'}).submit('j_idt58');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Horizon</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:10" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt62" name="j_idt62" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt62" value="j_idt62" />
+<a id="j_idt62:j_idt63" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt62',{'j_idt62:j_idt63':'j_idt62:j_idt63'}).submit('j_idt62');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Bliss</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:11" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt66" name="j_idt66" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt66" value="j_idt66" />
+<a id="j_idt66:j_idt67" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt66',{'j_idt66:j_idt67':'j_idt66:j_idt67'}).submit('j_idt66');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Crimson</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:12" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt70" name="j_idt70" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt70" value="j_idt70" />
+<a id="j_idt70:j_idt71" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt70',{'j_idt70:j_idt71':'j_idt70:j_idt71'}).submit('j_idt70');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Disco</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:13" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+
+                        <li role="menuitem">
+<form id="j_idt74" name="j_idt74" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt74" value="j_idt74" />
+<a id="j_idt74:j_idt75" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt74',{'j_idt74:j_idt75':'j_idt74:j_idt75'}).submit('j_idt74');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Sunset</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:14" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+
+                        <li role="menuitem">
+<form id="j_idt78" name="j_idt78" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt78" value="j_idt78" />
+<a id="j_idt78:j_idt79" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt78',{'j_idt78:j_idt79':'j_idt78:j_idt79'}).submit('j_idt78');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Deep Sea</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:15" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+
+                        <li role="menuitem">
+<form id="j_idt82" name="j_idt82" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt82" value="j_idt82" />
+<a id="j_idt82:j_idt83" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt82',{'j_idt82:j_idt83':'j_idt82:j_idt83'}).submit('j_idt82');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Opa</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:16" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt86" name="j_idt86" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt86" value="j_idt86" />
+<a id="j_idt86:j_idt87" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt86',{'j_idt86:j_idt87':'j_idt86:j_idt87'}).submit('j_idt86');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Cheer</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:17" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt90" name="j_idt90" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt90" value="j_idt90" />
+<a id="j_idt90:j_idt91" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt90',{'j_idt90:j_idt91':'j_idt90:j_idt91'}).submit('j_idt90');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Smoke</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:18" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                    </ul>
+
+                    <a href="#">
+                        <i class="topbar-icon fa fa-fw fa-paint-brush"></i>
+                        <span class="topbar-item-name">Theme Colors</span>
+                    </a>
+                    <ul>  
+                        <li role="menuitem">
+<form id="j_idt94" name="j_idt94" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt94" value="j_idt94" />
+<a id="j_idt94:j_idt95" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt94',{'j_idt94:j_idt95':'j_idt94:j_idt95'}).submit('j_idt94');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Blue Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:19" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt98" name="j_idt98" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt98" value="j_idt98" />
+<a id="j_idt98:j_idt99" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt98',{'j_idt98:j_idt99':'j_idt98:j_idt99'}).submit('j_idt98');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Green Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:20" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt102" name="j_idt102" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt102" value="j_idt102" />
+<a id="j_idt102:j_idt103" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt102',{'j_idt102:j_idt103':'j_idt102:j_idt103'}).submit('j_idt102');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Turquoise Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:21" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt106" name="j_idt106" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt106" value="j_idt106" />
+<a id="j_idt106:j_idt107" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt106',{'j_idt106:j_idt107':'j_idt106:j_idt107'}).submit('j_idt106');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Purple Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:22" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt110" name="j_idt110" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt110" value="j_idt110" />
+<a id="j_idt110:j_idt111" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt110',{'j_idt110:j_idt111':'j_idt110:j_idt111'}).submit('j_idt110');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Orange Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:23" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt114" name="j_idt114" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt114" value="j_idt114" />
+<a id="j_idt114:j_idt115" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt114',{'j_idt114:j_idt115':'j_idt114:j_idt115'}).submit('j_idt114');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Deep Purple Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:24" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                        <li role="menuitem">
+<form id="j_idt118" name="j_idt118" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt118" value="j_idt118" />
+<a id="j_idt118:j_idt119" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt118',{'j_idt118:j_idt119':'j_idt118:j_idt119'}).submit('j_idt118');return false;PrimeFaces.onPost();">
+                                    <i class="fa fa-paint-brush"></i>
+                                    <span>Lime Theme</span></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:25" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>                                   
+                        </li>
+                    </ul>
+                </ul>
+            </li>           
+            <li>
+                <a href="/estafet-hr/faces/common/notifications.xhtml">
+                    <i class="topbar-icon fa fa-fw fa-bell-o"></i>
+                    <span class="topbar-item-name">Notifications</span>                    
+                    <span></span>
+                </a>         
+            </li>
+            <li>
+                <a href="/estafet-hr/logout">
+                    <i class="fa fa-fw fa-sign-out"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+            
+            <div class="layout-main">
+
+    <div class="layout-menu-wrapper ">
+        <div class="nano">
+            <div class="nano-content sidebar-scroll-content">
+                <div class="layout-menu-container">
+<form id="menuform" name="menuform" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="menuform" value="menuform" />
+
+                        <div class="mobile-search">
+                            <i class="fa fa-fw fa-search topbar-search-icon"></i>
+                            <input type="text" class="topbar-search" placeholder="Type your search here" />
+                        </div><ul id="menuform:j_idt126" class="layout-menu"><li id="menuform:pm_dashboard" role="menuitem"><a href="/estafet-hr/faces/dashboard.xhtml"><i class="fa fa-home fa-fw"></i><span>Home</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Home</div></div></li><li id="menuform:pm_people_main" role="menuitem"><a href="#"><i class="fa fa-fw fa-users fa-fw"></i><span>People</span><i class="fa fa-fw fa-angle-down"></i></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">People</div></div><ul role="menu"><li id="menuform:pm_candidates" role="menuitem"><a href="/estafet-hr/faces/candidates/candidates.xhtml"><i class="fa fa-user-plus fa-fw"></i><span>Candidates</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Candidates</div></div></li><li id="menuform:pm_employee" role="menuitem"><a href="/estafet-hr/faces/employees/employees.xhtml"><i class="fa fa-users fa-fw"></i><span>Current Employees</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Current Employees</div></div></li><li id="menuform:pm_ex_employee" role="menuitem"><a href="/estafet-hr/faces/employees/ex_employees.xhtml"><i class="fa fa-user-times fa-fw"></i><span>Ex Employees</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Ex Employees</div></div></li></ul></li><li id="menuform:pm_projects_main" role="menuitem"><a href="#"><i class="fa fa-fw fa-sitemap fa-fw"></i><span>Projects</span><i class="fa fa-fw fa-angle-down"></i></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Projects</div></div><ul role="menu"><li id="menuform:pm_projects" role="menuitem"><a href="/estafet-hr/faces/projects/projects.xhtml"><i class="fa fa-sitemap fa-fw"></i><span>Projects</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Projects</div></div></li><li id="menuform:pm_companies" role="menuitem"><a href="/estafet-hr/faces/common/companies.xhtml"><i class="fa fa-building fa-fw"></i><span>Companies</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Companies</div></div></li></ul></li><li id="menuform:pm_holidays_main" role="menuitem"><a href="#"><i class="fa fa-fw fa-sun-o fa-fw"></i><span>Holidays</span><i class="fa fa-fw fa-angle-down"></i></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Holidays</div></div><ul role="menu"><li id="menuform:pm_request_holidays" role="menuitem"><a href="/estafet-hr/faces/holiday_requests/holidays.xhtml"><i class="fa fa-sign-out fa-fw"></i><span>Request holiday</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Request holiday</div></div></li><li id="menuform:pm_approve_holidays" role="menuitem"><a href="/estafet-hr/faces/holiday_requests/approve_holidays.xhtml"><i class="fa fa-sun-o fa-fw"></i><span>Approve holiday</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Approve holiday</div></div></li><li id="menuform:pm_manage_holidays" role="menuitem"><a href="/estafet-hr/faces/holiday_requests/manage_holidays.xhtml"><i class="fa fa-sun-o fa-fw"></i><span>Manage holidays</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Manage holidays</div></div></li></ul></li><li id="menuform:pm_reports" role="menuitem"><a href="#"><i class="fa fa-fw fa-table fa-fw"></i><span>Reports</span><i class="fa fa-fw fa-angle-down"></i></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Reports</div></div><ul role="menu"><li id="menuform:pm_emp_technologies" role="menuitem"><a href="/estafet-hr/faces/technologies/emp_technologies_search.xhtml"><i class="fa fa-server fa-fw"></i><span>Skill Matrix</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Skill Matrix</div></div></li><li id="menuform:pm_daily_time_tracker" role="menuitem"><a href="/estafet-hr/faces/reports/daily_time_tracker.xhtml"><i class="fa fa-fw fa-bell fa-fw"></i><span>Daily Availability</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Daily Availability</div></div></li><li id="menuform:pm_weekly_time_tracker" role="menuitem"><a href="/estafet-hr/faces/reports/time_tracker.xhtml"><i class="fa fa-fw fa-calendar fa-fw"></i><span>Weekly Availability</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Weekly Availability</div></div></li></ul></li><li id="menuform:pm_admin" role="menuitem"><a href="#"><i class="fa fa-fw fa-cog fa-fw"></i><span>Configuration</span><i class="fa fa-fw fa-angle-down"></i></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Configuration</div></div><ul role="menu"><li id="menuform:pm_users" role="menuitem"><a href="/estafet-hr/faces/users/users.xhtml"><i class="fa fa-users fa-fw"></i><span>Users</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Users</div></div></li><li id="menuform:pm_locations" role="menuitem"><a href="/estafet-hr/faces/common/locations.xhtml"><i class="fa fa-map-marker fa-fw"></i><span>Locations</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Locations</div></div></li><li id="menuform:pm_contract_types" role="menuitem"><a href="/estafet-hr/faces/common/contract_types.xhtml"><i class="fa fa-bars fa-fw"></i><span>Contract Types</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Contract Types</div></div></li><li id="menuform:pm_employee_statuses" role="menuitem"><a href="/estafet-hr/faces/common/emp_statuses.xhtml"><i class="fa fa-bookmark fa-fw"></i><span>Employee Statuses</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Employee Statuses</div></div></li><li id="menuform:pm_positions" role="menuitem"><a href="/estafet-hr/faces/common/emp_positions.xhtml"><i class="fa fa-arrows-alt fa-fw"></i><span>Employee Positions</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Employee Positions</div></div></li><li id="menuform:pm_prof_levels" role="menuitem"><a href="/estafet-hr/faces/common/prof_levels.xhtml"><i class="fa fa-thermometer-half fa-fw"></i><span>Proficiency Levels</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Proficiency Levels</div></div></li><li id="menuform:pm_technologies" role="menuitem"><a href="/estafet-hr/faces/common/technologies.xhtml"><i class="fa fa-server fa-fw"></i><span>Technologies</span></a><div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div><div class="layout-menu-tooltip-text">Technologies</div></div></li></ul></li></ul><script id="menuform:j_idt126_s" type="text/javascript">PrimeFaces.cw("Paradise","widget_menuform_j_idt126",{id:"menuform:j_idt126"});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:26" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>
+                </div>
+            </div>
+        </div>
+    </div>                
+                <div class="layout-content"><span id="growl"></span><script id="growl_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_growl",{id:"growl",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<form id="form" name="form" method="post" action="/estafet-hr/faces/common/companies.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form" value="form" />
+
+            <div class="ui-g">
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+                        <div class="ui-g">
+                            <div class="ui-g-12">
+                                <h1>Companies</h1><div id="form:companyTable" class="ui-datatable ui-widget ui-datatable-reflow" style="font-weight: normal !important"><label id="form:companyTable_reflowDD_label" for="form:companyTable_reflowDD" class="ui-reflow-label">Sort</label><select id="form:companyTable_reflowDD" name="form:companyTable_reflowDD" class="ui-reflow-dropdown ui-state-default" autocomplete="off"><option value="0_0">Id Ascending</option><option value="0_1">Id Descending</option><option value="1_0">Name Ascending</option><option value="1_1">Name Descending</option><option value="2_0">Url Ascending</option><option value="2_1">Url Descending</option><option value="3_0">Active Ascending</option><option value="3_1">Active Descending</option><option value="4_0">Created By Ascending</option><option value="4_1">Created By Descending</option><option value="5_0">Created On Ascending</option><option value="5_1">Created On Descending</option><option value="6_0">Edited By Ascending</option><option value="6_1">Edited By Descending</option><option value="7_0">Edited On Ascending</option><option value="7_1">Edited On Descending</option></select><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="form:companyTable_head"><tr role="row"><th id="form:companyTable:j_idt134" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Name" scope="col"><span class="ui-column-title">Name</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt136" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Url" scope="col"><span class="ui-column-title">Url</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt138" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Active" scope="col"><span class="ui-column-title">Active</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt140" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Created By" scope="col"><span class="ui-column-title">Created By</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt142" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Created On" scope="col"><span class="ui-column-title">Created On</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt144" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Edited By" scope="col"><span class="ui-column-title">Edited By</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt146" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Edited On" scope="col"><span class="ui-column-title">Edited On</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="form:companyTable:j_idt148" class="ui-state-default" role="columnheader" scope="col" style="width:50px"><span class="ui-column-title"></span></th></tr></thead><tbody id="form:companyTable_data" class="ui-datatable-data ui-widget-content" tabindex="0"><tr data-ri="10" data-rk="29" class="ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight" role="row" aria-selected="true"><td role="gridcell">The zone</td><td role="gridcell">www.thezone.bg</td><td role="gridcell">false</td><td role="gridcell">Dimitar Saykov</td><td role="gridcell">02.05.2018</td><td role="gridcell">Dimitar Saykov</td><td role="gridcell">03.05.2018</td><td role="gridcell"><button id="form:companyTable:10:edit" name="form:companyTable:10:edit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;form:companyTable:10:edit&quot;});return false;" type="submit"><span class="ui-button-text ui-c">Edit</span></button><script id="form:companyTable:10:edit_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_form_companyTable_10_edit",{id:"form:companyTable:10:edit"});</script></td></tr></tbody></table></div><div id="form:companyTable_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation" aria-label="Pagination"><a href="#" class="ui-paginator-first ui-state-default ui-corner-all" aria-label="First Page" tabindex="0"><span class="ui-icon ui-icon-seek-first">F</span></a><a href="#" class="ui-paginator-prev ui-state-default ui-corner-all" aria-label="Previous Page" tabindex="0"><span class="ui-icon ui-icon-seek-prev">P</span></a><span class="ui-paginator-pages"><a class="ui-paginator-page ui-state-default ui-corner-all" tabindex="0" href="#">1</a><a class="ui-paginator-page ui-state-default ui-state-active ui-corner-all" tabindex="0" href="#">2</a></span><a href="#" class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled" aria-label="Next Page" tabindex="-1"><span class="ui-icon ui-icon-seek-next">N</span></a><a href="#" class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled" aria-label="Last Page" tabindex="-1"><span class="ui-icon ui-icon-seek-end">E</span></a></div><input type="hidden" id="form:companyTable_selection" name="form:companyTable_selection" autocomplete="off" value="29" /></div><script id="form:companyTable_s" type="text/javascript">$(function(){PrimeFaces.cw("DataTable","widget_form_companyTable",{id:"form:companyTable",paginator:{id:['form:companyTable_paginator_bottom'],rows:10,rowCount:11,page:1,currentPageTemplate:'({currentPage} of {totalPages})'},selectionMode:"single",reflow:true,multiViewState:true,groupColumnIndexes:[]});});</script>
+                                <div style="margin-top:5px;"><button id="form:create" name="form:create" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;form:create&quot;});return false;" type="submit"><span class="ui-button-text ui-c">Create</span></button><script id="form:create_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_form_create",{id:"form:create"});</script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:27" value="-8157160521449247087:5428528941139297183" autocomplete="off" />
+</form>
+                </div>
+    
+    <div class="layout-footer clearfix">
+          <a href="http://estafet.com" style="font-size: 16px; word-spacing: 2px;"><i class="fa fa-copyright"> www.estafet.com</i></a>
+        <div class="layout-footer-right">
+            <a href="https://github.com/primefaces"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/groups/primefaces"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/primefaces"><i class="fa fa-twitter"></i></a>
+        </div>
+    </div>
+            </div>        
+        </div><div id="j_idt155" style="width:32px;height:32px;position:fixed;right:7px;bottom:7px"><div id="j_idt155_start" style="display:none">
+               <i class="fa fa-circle-o-notch fa-spin ajax-loader" aria-hidden="true"></i></div><div id="j_idt155_complete" style="display:none"></div></div><script id="j_idt155_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt155",{id:"j_idt155"});});</script></body>
+
+</html>

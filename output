@@ -1,0 +1,61 @@
+Feature: Checkout fruits
+
+  @test
+  Scenario Outline: Checkout                  [90m# Cucumber.feature:3[0m
+    [36mGiven [0m[36mthe price of a <fruit> is <price>lv[0m
+    [36mWhen [0m[36mI checkout <count> <fruit>[0m
+    [36mThen [0m[36mthe total price should be <total>[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Checkout           [90m# Cucumber.feature:10[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1mbanana[0m[32m is [0m[32m[1m2[0m[32mlv[0m [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mWhen [0m[32mI checkout [0m[32m[1m1[0m[32m [0m[32m[1mbanana[0m           [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m2[0m   [90m# StepsDefinition.the_total_price_should_be(double)[0m
+
+  @test
+  Scenario Outline: Checkout             [90m# Cucumber.feature:11[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1morange[0m[32m is [0m[32m[1m2.5[0m[32mlv[0m [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mWhen [0m[32mI checkout [0m[32m[1m2[0m[32m [0m[32m[1morange[0m             [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m5[0m     [90m# StepsDefinition.the_total_price_should_be(double)[0m
+
+  @test
+  Scenario Outline: Checkout             [90m# Cucumber.feature:12[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1mapple[0m[32m is [0m[32m[1m0.70[0m[32mlv[0m [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mWhen [0m[32mI checkout [0m[32m[1m3[0m[32m [0m[32m[1mapple[0m              [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m2.1[0m   [90m# StepsDefinition.the_total_price_should_be(double)[0m
+
+  @test
+  Scenario Outline: Checkout more fruits      [90m# Cucumber.feature:14[0m
+    [36mGiven [0m[36mthe price of a <fruit> is <price>lv[0m
+    [36mAnd [0m[36mthe price of a <fruit1> is <price1>lv[0m
+    [36mAnd [0m[36mI checkout <count> <fruit>[0m
+    [36mAnd [0m[36mI checkout <count> <fruit1>[0m
+    [36mThen [0m[36mthe total price should be <total>[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Checkout more fruits [90m# Cucumber.feature:23[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1mbanana[0m[32m is [0m[32m[1m2[0m[32mlv[0m   [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mthe price of a [0m[32m[1mapple[0m[32m is [0m[32m[1m1[0m[32mlv[0m      [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m2[0m[32m [0m[32m[1mbanana[0m              [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m2[0m[32m [0m[32m[1mapple[0m               [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m6[0m     [90m# StepsDefinition.the_total_price_should_be(double)[0m
+
+  @test
+  Scenario Outline: Checkout more fruits [90m# Cucumber.feature:24[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1morange[0m[32m is [0m[32m[1m2.5[0m[32mlv[0m [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mthe price of a [0m[32m[1mbanana[0m[32m is [0m[32m[1m2[0m[32mlv[0m     [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m5[0m[32m [0m[32m[1morange[0m              [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m5[0m[32m [0m[32m[1mbanana[0m              [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m22.5[0m  [90m# StepsDefinition.the_total_price_should_be(double)[0m
+
+  @test
+  Scenario Outline: Checkout more fruits [90m# Cucumber.feature:25[0m
+    [32mGiven [0m[32mthe price of a [0m[32m[1mapple[0m[32m is [0m[32m[1m0.70[0m[32mlv[0m [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mthe price of a [0m[32m[1morange[0m[32m is [0m[32m[1m3[0m[32mlv[0m     [90m# StepsDefinition.the_price_of_a_is_lv(String,double)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m3[0m[32m [0m[32m[1mapple[0m               [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mAnd [0m[32mI checkout [0m[32m[1m3[0m[32m [0m[32m[1morange[0m              [90m# StepsDefinition.i_checkout_(int,String)[0m
+    [32mThen [0m[32mthe total price should be [0m[32m[1m11.1[0m  [90m# StepsDefinition.the_total_price_should_be(double)[0m

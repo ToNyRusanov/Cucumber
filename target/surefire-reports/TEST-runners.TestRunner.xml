@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="106" failures="0" name="runners.TestRunner" time="0.008" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DELL 3\eclipse-workspace\Cucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\DELL 3\eclipse-workspace\Cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL3~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Users\DELL 3\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\DELL 3"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DELL 3"/>
+    <property name="java.class.path" value="C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\DELL 3\eclipse-workspace\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Drop down Position menu options" name="Given user open the browser" time="0.002"/>
+  <testcase classname="Scenario: Drop down Position menu options" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="Scenario: Drop down Position menu options" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="Scenario: Drop down Position menu options" name="Then the listed &quot;Position&quot; options should be" time="0"/>
+  <testcase classname="Scenario: Drop down Position menu options" name="And close the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Position menu options" name="Scenario: Drop down Position menu options" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="And user click on the Location drop down menu" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="Then the listed &quot;Location&quot; options should be" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="And close the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Location menu options" name="Scenario: Drop down Location menu options" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="And user click on the Status drop down menu" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="Then the listed &quot;Status&quot; options should be" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="And close the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Status menu options" name="Scenario: Drop down Status menu options" time="0.001"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="And user click on the Proficiency Level drop down menu" time="0"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="Then the listed &quot;Proficiency Level&quot; options should be" time="0"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="And close the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Proficiency level menu options" name="Scenario: Drop down Proficiency level menu options" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="And user click on the Rank drop down menu" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="Then the listed &quot;Rank&quot; options should be" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="And close the browser" time="0"/>
+  <testcase classname="Scenario: Drop down Rank menu options" name="Scenario: Drop down Rank menu options" time="0"/>
+  <testcase classname="| Developer | Developer |" name="Given user open the browser" time="0"/>
+  <testcase classname="| Developer | Developer |" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="| Developer | Developer |" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="| Developer | Developer |" name="When user choose Developer from drop down menu" time="0"/>
+  <testcase classname="| Developer | Developer |" name="And user click on the search button" time="0"/>
+  <testcase classname="| Developer | Developer |" name="Then position of all employees in the table should be Developer" time="0"/>
+  <testcase classname="| Developer | Developer |" name="And close the browser" time="0"/>
+  <testcase classname="| Developer | Developer |" name="| Developer | Developer |" time="0.001"/>
+  <testcase classname="| QA | QA |" name="Given user open the browser" time="0"/>
+  <testcase classname="| QA | QA |" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="| QA | QA |" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="| QA | QA |" name="When user choose QA from drop down menu" time="0"/>
+  <testcase classname="| QA | QA |" name="And user click on the search button" time="0"/>
+  <testcase classname="| QA | QA |" name="Then position of all employees in the table should be QA" time="0"/>
+  <testcase classname="| QA | QA |" name="And close the browser" time="0"/>
+  <testcase classname="| QA | QA |" name="| QA | QA |" time="0.001"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="Given user open the browser" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="When user choose Delivery Director from drop down menu" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="And user click on the search button" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="Then position of all employees in the table should be Delivery Director" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="And close the browser" time="0"/>
+  <testcase classname="| Delivery Director | Delivery Director |" name="| Delivery Director | Delivery Director |" time="0.001"/>
+  <testcase classname="| HR | No records found. |" name="Given user open the browser" time="0"/>
+  <testcase classname="| HR | No records found. |" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="| HR | No records found. |" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="| HR | No records found. |" name="When user choose HR from drop down menu" time="0"/>
+  <testcase classname="| HR | No records found. |" name="And user click on the search button" time="0"/>
+  <testcase classname="| HR | No records found. |" name="Then position of all employees in the table should be No records found." time="0"/>
+  <testcase classname="| HR | No records found. |" name="And close the browser" time="0"/>
+  <testcase classname="| HR | No records found. |" name="| HR | No records found. |" time="0"/>
+  <testcase classname="| CTO | CTO |" name="Given user open the browser" time="0"/>
+  <testcase classname="| CTO | CTO |" name="When user go to Skill Matrix page" time="0"/>
+  <testcase classname="| CTO | CTO |" name="And user click on the Position drop down menu" time="0"/>
+  <testcase classname="| CTO | CTO |" name="When user choose CTO from drop down menu" time="0"/>
+  <testcase classname="| CTO | CTO |" name="And user click on the search button" time="0.001"/>
+  <testcase classname="| CTO | CTO |" name="Then position of all employees in the table should be CTO" time="0"/>
+  <testcase classname="| CTO | CTO |" name="And close the browser" time="0"/>
+  <testcase classname="| CTO | CTO |" name="| CTO | CTO |" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="And type &quot;Anton Rusanov&quot; in the Full name search field" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="And result in the Employees table for Full Name should be &quot;Anton Rusanov&quot;" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: Search for employee by name" name="Scenario: Search for employee by name" time="0.001"/>
+  <testcase classname="Scenario: Search for employee by position" name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: Search for employee by position" name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: Search for employee by position" name="And type &quot;Developer&quot; in the Position search field" time="0"/>
+  <testcase classname="Scenario: Search for employee by position" name="And result in the Employees table for Position should be &quot;Developer&quot;" time="0"/>
+  <testcase classname="Scenario: Search for employee by position" name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: Search for employee by position" name="Scenario: Search for employee by position" time="0"/>
+  <testcase classname="Scenario: " name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: " name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: " name="And type &quot;Sofia&quot; in the Location search field" time="0"/>
+  <testcase classname="Scenario: " name="And result in the Employees table for Location should be &quot;Sofia&quot;" time="0"/>
+  <testcase classname="Scenario: " name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0"/>
+  <testcase classname="Scenario: " name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: " name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: " name="And type &quot;lower CL01&quot; in the Prof Level search field" time="0"/>
+  <testcase classname="Scenario: " name="And result in the Employees table for Prof Level should be &quot;lower CL01&quot;" time="0"/>
+  <testcase classname="Scenario: " name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0"/>
+  <testcase classname="Scenario: " name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: " name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: " name="And type &quot;Permanent&quot; in the Contract Type search field" time="0"/>
+  <testcase classname="Scenario: " name="And result in the Employees table for Contract Type should be &quot;Permanent&quot;" time="0"/>
+  <testcase classname="Scenario: " name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0"/>
+  <testcase classname="Scenario: " name="Given user open the browser" time="0"/>
+  <testcase classname="Scenario: " name="And user go to Current employees page" time="0"/>
+  <testcase classname="Scenario: " name="And type &quot;Employeed&quot; in the Status search field" time="0"/>
+  <testcase classname="Scenario: " name="And result in the Employees table for Status should be &quot;Employeed&quot;" time="0"/>
+  <testcase classname="Scenario: " name="Then close the browser" time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0"/>
+</testsuite>
