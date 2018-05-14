@@ -1,5 +1,5 @@
 Feature: Checkout fruits
-
+@test
 Scenario Outline: Checkout
 	Given the price of a <fruit> is <price>lv
 	When I checkout <count> <fruit>
@@ -10,7 +10,7 @@ Scenario Outline: Checkout
 		| banana | 2     | 1     |2     |
 		| orange | 2.5   | 2     |5     | 
 		| apple  | 0.70  | 3     |2.1   | 
-	
+@test	
 Scenario Outline: Checkout more fruits
 	Given the price of a <fruit> is <price>lv
 		And the price of a <fruit1> is <price1>lv

@@ -1,6 +1,6 @@
 Feature: Withdraw fixed amount 
 
-
+@test
 Scenario Outline: withdraw fixed amount 
 	Given my bank account balance is <balance> 
 	When I want to withdraw <withdraw> 

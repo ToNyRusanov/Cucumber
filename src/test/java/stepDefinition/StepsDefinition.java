@@ -17,6 +17,25 @@ public class StepsDefinition {
 	double orangePrice = 0;
 	double applePrice = 0;
 	
+	@Given("^person go to work$")
+	public void person_go_to_work() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^person drink a coffie$")
+	public void person_drink_a_coffie() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@Then("^person is ready to work$")
+	public void person_is_ready_to_work() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+
 	
 	@Given("^the price of a (.*) is (.*)lv$")
 	public void the_price_of_a_is_lv(String fruit , double price)  {
